@@ -1,0 +1,16 @@
+<html><body>
+<h1>Role</h1>
+<ul>
+    {% for role in roles %}
+    <li>{{ role.name }}</li>
+    {% endfor %}
+</ul>
+   {% if msg1 %}
+    <script> Swal.fire(
+            'Good job!',
+            "posted Successfully",
+            'success'
+            )
+    </script>
+    {% endif %}
+</body></html>

@@ -1,0 +1,6 @@
+Django~=2.2.4
+djangorestframework
+django-filter==2.4.0
+Markdown==2.6.11
+pytz==2018.4
+drf-renderer-xlsx
